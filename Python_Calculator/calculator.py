@@ -42,7 +42,7 @@ def calculate(s):
         return s
     
     #s = re.findall(r'\d+|\D', s)   
-    #Convert the string into a list ,etc "4123+8*9  --> ["4123","+","8","*","9"] ,and this is the format we need to calculate the result
+    #Convert the string into a list ,for example "4123+8*9  --> ["4123","+","8","*","9"] ,and this is the format we need to calculate the result
     i=0
     string=""
     s2=[]
@@ -59,9 +59,7 @@ def calculate(s):
             string=""
             mylist=[]
         i+=1
-    #print(s2)  
     s=s2[:]
-    #print(s)
     
     start=[]
     j=0
